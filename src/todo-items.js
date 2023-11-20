@@ -1,3 +1,4 @@
+// This module is for manipulating todo items
 export default CreateTodoItem;
 
 function CreateTodoItem(title, desc, dueDate, priority, checklist) {
