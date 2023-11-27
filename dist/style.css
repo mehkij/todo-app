@@ -26,3 +26,19 @@ body {
   grid-column: 2 / 4;
   grid-row: 1 / 5;
 }
+
+.todo-list,
+.sidebar,
+.todo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-group {
+  list-style-type: none;
+  padding: 16px;
+}
+
+.section-title {
+  align-self: center;
+}
