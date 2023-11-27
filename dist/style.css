@@ -1,0 +1,28 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr / 0.55fr 1fr 1fr 1fr;
+  height: 100vh;
+  padding: 16px;
+}
+
+.sidebar {
+  background-color: #ebebeb;
+  grid-row: 1 / 5;
+}
+
+.todo-form {
+  background-color: #ebebeb;
+  grid-column: 4;
+  grid-row: 1 / 5;
+}
+
+.todo-list {
+  background-color: pink;
+  grid-column: 2 / 4;
+  grid-row: 1 / 5;
+}
